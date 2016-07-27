@@ -1,0 +1,22 @@
+{
+    "name": "hashmode/cakephp-stripe",
+    "description": "Cakephp 3.x component for Stripe payments",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "stripe", "payment"],
+    "require": {
+        "cakephp/cakephp": "~3.0",
+        "stripe/stripe-php": "~3.17.0"
+    },
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "hashmode"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CakephpStripe\\": "src"
+        }
+    }
+    
+}
